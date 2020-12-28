@@ -1,0 +1,191 @@
+.container{
+    padding: 32px;
+    width: calc(100% - 296px);
+    position: absolute;
+    right: 0;
+    .container-header{
+        margin-bottom: 44px;
+    }
+    .header-tittle{
+        h2{
+        padding-right: 46px;
+        }
+    }
+    .header-icon{
+        a{
+        text-decoration: none;
+        color: #121212;
+        }   
+    }
+}
+.content{
+    .student-homework{
+        width: 35%;
+    }
+    .card-mission{
+        margin-right: 16px;
+        .list-group-item{
+            padding: 12px;
+            a{
+                text-decoration: none;
+                color: #000;
+            }
+        }
+        .group-selected{
+            background: #EDF4EE;
+        }
+    .group-item{
+        p{
+            font-size: 12px;
+            line-height: 15px;
+            margin-bottom: 4px;
+        }
+        h3{
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+    }
+    .group-item-time{
+        font-size: 12px;
+        line-height: 15px;
+        text-align: right;
+        p{
+            margin-bottom: 8px;
+        }
+        .student-name{
+            margin-bottom: 0;
+            color: #0000009A;
+        }
+    }
+    }
+    .teacher-review{
+        width: 65%;
+        margin-bottom: 8px;
+        p{
+            font-size: 12px;
+            line-height: 15px;
+            text-align: right;
+            color: #707070;
+            margin-bottom: 6px;
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+            display: block;
+            line-height: 16px;
+        }
+        .list-unstyled{
+            margin-bottom: 0;
+        }
+        .media{
+            img{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                object-fit: cover
+            }
+            h5{
+                font-size: 16px;
+                line-height: 19px;
+                font-weight: bold;
+                margin-bottom: 4px;
+            }
+            p{
+                text-align: left;
+            }
+            .question{
+                font-size: 14px;
+                line-height: 21px;
+                color: #000;
+                margin-bottom: 16px;
+            }
+            .answer{
+                font-size: 14px;
+                line-height: 21px;
+                color: #000;
+                margin-bottom: 21px;
+            }
+            .list{
+                list-style-type: disc;
+            }
+            span{
+                color: #2A8356;
+            }
+            .attach{
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 12px;
+                padding-right: 16px;
+                font-size: 16px;
+                line-height: 19px;
+                font-weight: bold;
+                border: 1px solid #CDDDCD;
+                span{
+                    color: #000;
+                    margin-right: 8px;
+                }
+            }
+        }
+        .homework-review{
+            p{
+                text-align-last: left;
+                color: #121212;
+                margin-bottom: 4px;
+            }
+            h3{
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: bold;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+.footer{
+    display: flex;
+    align-items: center;
+    .page{
+        width: 100px;
+        margin: 0 auto;
+        .material-icons{
+            margin-right: 23px;
+            width: 24px;
+            height: 24px;
+        }
+    }
+    .btn-empty{
+        color: #2A8356;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 32px;
+        padding-right: 32px;
+        border: 1px solid #2A8356;
+        margin-right: 16px;
+    }
+    .btn-solid{
+        color: white;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 32px;
+        padding-right: 32px;
+        background:  #2A8356;
+
+    }
+}
+.mb-6px{
+    margin-bottom: 6px;
+}
+.pd-12px{
+    padding: 12px;
+}
+.primary{
+    background:#EDF4EE;
+}
+.pb-16px{
+    padding-bottom: 16px;
+}
+.mb-18px{
+    margin-bottom: 18px;
+}

@@ -1,0 +1,153 @@
+---
+title: Assignment
+layout: ./app/layout.ejs
+engine: ejs
+current: Assignment
+---
+
+<div class="container">
+    <div class="container-header d-flex justify-content-between align-items-center">
+        <div class="header-tittle d-flex align-items-center">
+            <h2>Assignment</h2>
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    All Courses
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+        </div>
+        <div class="header-icon">
+            <a href="#"><span class="material-icons pr-3">
+                search
+                </span></a>
+            <a href="#"><span class="material-icons">
+                notifications_active
+                </span></a>
+        </div>
+    </div>
+
+    <div class="content d-flex">
+        <div class="student-homework">
+            <div class="dropdown">
+                <button class="btn dropdown-toggle mb-6px" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    All(4)
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+            <div class="card card-mission" >
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item  group-selected">
+                        <a href="#" class=" d-flex justify-content-between">
+                        <div class="group-item">
+                            <p>Chapter Assignment 2</p>
+                            <h3>Please check this file…</h3>
+                        </div>
+                        <div class="group-item-time">
+                            <p>4 hrs ago</p>
+                            <p class="student-name">Emily Wang</p>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div class="group-item">
+                            <p>Chapter Assignment 1</p>
+                            <h3>My Homework</h3>
+                        </div>
+                        <div class="group-item-time">
+                            <p>12 hrs ago</p>
+                            <p class="student-name">David Xu</p>
+                        </div>
+                    </li>
+                  <li class="list-group-item d-flex justify-content-between">
+                    <div class="group-item">
+                        <p>CFinal Assignment</p>
+                        <h3>Have a problem with this…</h3>
+                    </div>
+                    <div class="group-item-time">
+                        <p>18 hrs ago</p>
+                        <p class="student-name">Tony Wei</p>
+                    </div>
+                  </li>
+                  <li class="list-group-item  d-flex justify-content-between">
+                    <div class="group-item">
+                        <p>Final Assignment</p>
+                        <h3>Did I do it right?</h3>
+                    </div>
+                    <div class="group-item-time">
+                        <p>19 hrs ago</p>
+                        <p class="student-name">Christina Lin</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+        </div>
+        <div class="teacher-review">
+            <p>2 comments</p>
+        <div class="card card-content">
+            <div class="card-header primary d-flex pd-12px justify-content-between align-items-center">
+              <div class="homework-review">
+                  <p>Chapter Assignment 2 / HTML&CSS</p>
+                  <h3>Please check this file for me, thanks!</h3>
+              </div>
+              <a href="#">
+                <span class="material-icons">
+                    more_vert
+                    </span>
+              </a>
+            </div>
+            <div class="card-body">
+              <ul class="list-unstyled">
+            <li class="media mb-18px">
+              <img src="assets/images/emilywang.jpeg" class="mr-3" alt="...">
+              <div class="media-body border-bottom pb-16px">
+                <h5 class="mt-0 mb-1">Emily Wang</h5>
+                <p>10:38 AM (4 hours ago)</p>
+                <p class="question">Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <span class="primary">div</span>? is bigger than the height of the <span class="primary">img</span>? There is a gap below the image, but it doesn’t seems to be a padding/margin. <br> What is the gap or extra space below image?</p>
+                <button type="button" class="btn primary attach d-flex align-items-center"><span class="material-icons">
+                    attach_file
+                    </span>HW-2-David.zip</button>
+              </div>
+            </li>
+            
+            <li class="media">
+              <img src="assets/images/andychen.jpeg" class="mr-3" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">Andy Chen (You)</h5>
+                <p>13:24 AM (1 hours ago)</p>
+                <p class="answer">Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q.</p>
+                <p class="answer">You can:</p>
+                <ul>
+                    <li class="list">adjust the vertical-align of the image to position it elsewhere (e.g. the middle ) or 　</li>
+                    <li class="list">change the display so it isn’t inline.</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="page">
+            <span class="material-icons">
+                keyboard_arrow_left
+                </span>
+             <span class="material-icons">
+                keyboard_arrow_right
+                </span>
+        </div>
+        <div class="reply">
+            <button type="button" class="btn btn-empty">Mark as read</button>
+            <button type="button" class="btn btn-solid">Reply</button>
+
+        </div>
+    </div>
+</div>

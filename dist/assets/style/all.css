@@ -1,0 +1,239 @@
+.warp {
+  position: relative; }
+  .warp .header {
+    width: 296px;
+    height: 100%;
+    position: fixed;
+    background: #EDF4EE;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .warp .header .menu {
+      height: 100%; }
+    .warp .header h1 {
+      margin-bottom: 32px;
+      padding-left: 32px;
+      width: 151px;
+      height: 40px; }
+      .warp .header h1 a {
+        display: block;
+        float: left;
+        width: 151px;
+        height: 40px;
+        background-image: url(../images/logo-ANSWER.svg);
+        overflow: hidden;
+        text-indent: 101%;
+        white-space: nowrap; }
+    .warp .header ul {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 0; }
+      .warp .header ul .material-icons {
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 0; }
+      .warp .header ul a {
+        text-decoration: none;
+        color: #121212;
+        font-size: 16px;
+        line-height: 24px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding-left: 32px;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        margin-bottom: 32px; }
+      .warp .header ul a:hover {
+        color: #2A8356;
+        border-left: 4px solid #2A8356;
+        padding-left: 28px; }
+    .warp .header .acount {
+      padding-left: 32px; }
+      .warp .header .acount .acount-head {
+        background-image: url(../images/andychen.jpeg);
+        width: 40px;
+        height: 40px;
+        background-size: cover;
+        border-radius: 50%;
+        margin-right: 16px; }
+      .warp .header .acount .acount-information h2 {
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: bold;
+        margin-bottom: 4px; }
+      .warp .header .acount .acount-information p {
+        font-size: 14px;
+        line-height: 17px;
+        color: #0000009A; }
+
+.mr-16 {
+  margin-right: 16px; }
+
+.mb-26 {
+  margin-bottom: 26px; }
+
+.container {
+  padding: 32px;
+  width: calc(100% - 296px);
+  position: absolute;
+  right: 0; }
+  .container .container-header {
+    margin-bottom: 44px; }
+  .container .header-tittle h2 {
+    padding-right: 46px; }
+  .container .header-icon a {
+    text-decoration: none;
+    color: #121212; }
+
+.content .student-homework {
+  width: 35%; }
+
+.content .card-mission {
+  margin-right: 16px; }
+  .content .card-mission .list-group-item {
+    padding: 12px; }
+    .content .card-mission .list-group-item a {
+      text-decoration: none;
+      color: #000; }
+  .content .card-mission .group-selected {
+    background: #EDF4EE; }
+  .content .card-mission .group-item p {
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 4px; }
+  .content .card-mission .group-item h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-bottom: 0; }
+  .content .card-mission .group-item-time {
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right; }
+    .content .card-mission .group-item-time p {
+      margin-bottom: 8px; }
+    .content .card-mission .group-item-time .student-name {
+      margin-bottom: 0;
+      color: #0000009A; }
+
+.content .teacher-review {
+  width: 65%;
+  margin-bottom: 8px; }
+  .content .teacher-review p {
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #707070;
+    margin-bottom: 6px; }
+  .content .teacher-review a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    line-height: 16px; }
+  .content .teacher-review .list-unstyled {
+    margin-bottom: 0; }
+  .content .teacher-review .media img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .content .teacher-review .media h5 {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+    margin-bottom: 4px; }
+  .content .teacher-review .media p {
+    text-align: left; }
+  .content .teacher-review .media .question {
+    font-size: 14px;
+    line-height: 21px;
+    color: #000;
+    margin-bottom: 16px; }
+  .content .teacher-review .media .answer {
+    font-size: 14px;
+    line-height: 21px;
+    color: #000;
+    margin-bottom: 21px; }
+  .content .teacher-review .media .list {
+    list-style-type: disc; }
+  .content .teacher-review .media span {
+    color: #2A8356; }
+  .content .teacher-review .media .attach {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 16px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+    border: 1px solid #CDDDCD; }
+    .content .teacher-review .media .attach span {
+      color: #000;
+      margin-right: 8px; }
+  .content .teacher-review .homework-review p {
+    -moz-text-align-last: left;
+         text-align-last: left;
+    color: #121212;
+    margin-bottom: 4px; }
+  .content .teacher-review .homework-review h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-bottom: 0; }
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .footer .page {
+    width: 100px;
+    margin: 0 auto; }
+    .footer .page .material-icons {
+      margin-right: 23px;
+      width: 24px;
+      height: 24px; }
+  .footer .btn-empty {
+    color: #2A8356;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 1px solid #2A8356;
+    margin-right: 16px; }
+  .footer .btn-solid {
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background: #2A8356; }
+
+.mb-6px {
+  margin-bottom: 6px; }
+
+.pd-12px {
+  padding: 12px; }
+
+.primary {
+  background: #EDF4EE; }
+
+.pb-16px {
+  padding-bottom: 16px; }
+
+.mb-18px {
+  margin-bottom: 18px; }
+
+/*# sourceMappingURL=all.css.map */

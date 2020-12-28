@@ -1,0 +1,88 @@
+.warp{
+    position: relative;
+    .header{
+        width: 296px;
+        height: 100%;
+        position: fixed;
+        background: #EDF4EE;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        .menu{
+            height: 100%;
+        }
+        h1{
+            margin-bottom: 32px;  
+            padding-left: 32px;
+            width: 151px;
+            height: 40px;
+            a{
+                display: block;
+                float: left;
+                width: 151px;
+                height: 40px;
+                background-image: url(../images/logo-ANSWER.svg);
+                overflow: hidden;
+                text-indent: 101%;
+                white-space: nowrap;
+            }
+        }
+        ul{
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 0;
+            .material-icons{
+                font-size: 24px;
+                line-height: 24px;
+                margin-bottom: 0;
+            }
+            a{
+                text-decoration: none;
+                color: #121212;
+                font-size: 16px;
+                line-height: 24px;
+                display: flex;
+                padding-left: 32px;
+                box-sizing: border-box;
+                margin-bottom: 32px;
+            }
+            a:hover{
+                color: #2A8356;
+                border-left: 4px solid #2A8356;
+                padding-left: 28px;
+            }
+        }
+        .acount{
+            padding-left: 32px;
+            .acount-head{
+                background-image: url(../images/andychen.jpeg);
+                width: 40px;
+                height: 40px;
+                background-size: cover;
+                border-radius: 50%;
+                margin-right: 16px;
+                }
+            .acount-information{
+                h2{
+                    font-size: 16px;
+                    line-height: 19px;
+                    font-weight: bold;
+                    margin-bottom: 4px;
+                }
+                p{
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #0000009A;
+                }
+            }
+        }
+    }
+}
+.mr-16{
+    margin-right: 16px;
+}
+.mb-26{
+    margin-bottom: 26px;
+}

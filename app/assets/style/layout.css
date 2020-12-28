@@ -1,0 +1,110 @@
+.warp {
+  position: relative;
+}
+
+.warp .header {
+  width: 296px;
+  height: 100%;
+  position: fixed;
+  background: #EDF4EE;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.warp .header .menu {
+  height: 100%;
+}
+
+.warp .header h1 {
+  margin-bottom: 32px;
+  padding-left: 32px;
+  width: 151px;
+  height: 40px;
+}
+
+.warp .header h1 a {
+  display: block;
+  float: left;
+  width: 151px;
+  height: 40px;
+  background-image: url(../images/logo-ANSWER.svg);
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+}
+
+.warp .header ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.warp .header ul .material-icons {
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.warp .header ul a {
+  text-decoration: none;
+  color: #121212;
+  font-size: 16px;
+  line-height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 32px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 32px;
+}
+
+.warp .header ul a:hover {
+  color: #2A8356;
+  border-left: 4px solid #2A8356;
+  padding-left: 28px;
+}
+
+.warp .header .acount {
+  padding-left: 32px;
+}
+
+.warp .header .acount .acount-head {
+  background-image: url(../images/andychen.jpeg);
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.warp .header .acount .acount-information h2 {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.warp .header .acount .acount-information p {
+  font-size: 14px;
+  line-height: 17px;
+  color: #0000009A;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.mb-26 {
+  margin-bottom: 26px;
+}
+/*# sourceMappingURL=layout.css.map */
